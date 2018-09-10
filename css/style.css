@@ -1,0 +1,211 @@
+/* MAIN */
+html, body {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+/* Nawigacja */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1rem; 
+}
+
+/* Home */
+
+#home {
+    height: 800px;
+    width: 100%;
+    background-image: url("../img/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.home-inside {
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    padding-top: 20%;
+}
+
+/* O mnie */
+
+#omnie {
+    background-color: #D9D9D9;
+    min-height: 500px;
+    width: 100%;
+}
+
+#omnie h1 {
+    font-size: 3rem;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+#omnie .mg {
+    margin-bottom: 20%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Portfolio */
+
+#portfolio {
+    min-height: 800px;
+    width: 100%;
+    background-image: url("../img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#portfolio h1 {
+    color: white;
+    font-size: 3rem;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+#portfolio h2 {
+    color: rgb(230, 230, 230);  
+    font-family: 'Abel' , sans-serif;
+    padding-top: 20%;
+}
+
+
+#portfolio a {
+    text-decoration: none;
+}
+
+#portfolio .box-inside {
+    min-height: 280px;
+    margin: 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#portfolio .b1 {
+    background-image: url("../img/b1.jpeg");
+}
+
+#portfolio .b2 {
+    background-image: url("../img/b2.jpeg");
+}
+
+#portfolio .b3 {
+    background-image: url("../img/b3.jpeg");
+}
+
+#portfolio .b4 {
+    background-image: url("../img/b4.jpeg");
+}
+
+#portfolio .b5 {
+    background-image: url("../img/b5.jpeg");
+}
+
+#portfolio .b6 {
+    background-image: url("../img/b6.jpeg");
+    margin-bottom: 15%;
+}
+
+/* Uslugi */
+
+#uslugi {
+    min-height: 800px;
+    width: 100%;
+}
+
+#uslugi h1 {
+    font-size: 3rem;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+#uslugi .howido {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/* Kontakt */
+
+#kontakt {
+    background-color: #D9D9D9;
+    min-height: 500px;
+    width: 100%;
+}
+
+#kontakt h1 {
+    font-size: 3rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#kontakt p {
+    margin-top: 6%;
+    font-size: 1.3rem;
+}
+
+#btnContact {
+    border: 0px;
+    background-color: black;
+    margin-bottom: 10%;
+}
+
+.fa-facebook-square, .fa-google-plus-square, .fa-instagram {
+    color: rgb(36, 34, 34);
+    font-size: 3rem;
+    padding: 5%;
+}
+
+.fa-facebook-square:hover, .fa-google-plus-square:hover, .fa-instagram:hover {
+    color: black;
+}
+
+/* Stopka */
+
+footer {
+    margin: 0;
+    padding: 20px;
+    font-size: 1rem;
+    background-color: rgb(221, 221, 221);
+    min-height: 50px;
+    text-align: center;
+}
+
+/*---Media Queries --*/
+@media (max-width: 768px) {
+    .home-inside h1 {
+        font-size: 2.4rem;
+        margin-top: 40%;
+        margin-bottom: 12%;  
+    }    
+    }
+@media (max-width: 576px) { 
+    .home-inside h1 {
+        font-size: 2.4rem; 
+        margin-top: 40%;
+        margin-bottom: 12%;   
+    }
+  }
